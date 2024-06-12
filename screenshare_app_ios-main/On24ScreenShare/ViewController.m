@@ -43,6 +43,8 @@ UIDeviceOrientation newOrientation;
 
 - (void)viewDidLoad
 {
+    
+    //view did load
     [super viewDidLoad];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
