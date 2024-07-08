@@ -1,6 +1,6 @@
 //
 //  SampleHandler.m
-//  OpenTok Live
+//  OpenTokLive
 //
 //  Created .
 //  Copyright © 2019 TokBox, Inc. All rights reserved.
@@ -16,7 +16,8 @@
 #define kVideoFrameScaleFactor IDIOM == IPAD ? 0.45:0.30
 
 // Replace with your group key
-static NSString* const kGroupName = @"group.com.lms.xcodecloud";
+static NSString* const kGroupName = @"group.RSJL44J28C.com.Test.Lms";
+
 
 @interface SampleHandler()<OTBroadcastExtHelperDelegate> {
     CGImagePropertyOrientation imageOrientation;
@@ -112,12 +113,13 @@ static NSString* const kGroupName = @"group.com.lms.xcodecloud";
     NSString *msg = [NSString stringWithFormat:@"error - %@",error.localizedDescription];
     [userDefaults setObject:msg forKey:@"Broadcast_status"];
     [userDefaults synchronize];
-    
-    
-    
 }
 
-
+-(void)resetVonageInfo{
+    [userDefaults removeObjectForKey:@"apiKey"];
+    [userDefaults removeObjectForKey:@"sessionId"];
+    [userDefaults removeObjectForKey:@"token"];
+}
 
 - (OTVideoOrientation)currentDeviceOrientation {
     // transforms are different for
@@ -396,7 +398,7 @@ static NSString* const kGroupName = @"group.com.lms.xcodecloud";
 
 - (void)finishedStream:(NSString*)strMsg {
     
-    NSString *domain = @"ScreenShare";
+    NSString *domain = @"On24ScreenShare";
     NSString *desc = NSLocalizedString(strMsg, @"");
     NSDictionary *userInfo = @{ NSLocalizedDescriptionKey : desc };
     NSError *error = [NSError errorWithDomain:domain code:-1 userInfo:userInfo];

@@ -1,6 +1,6 @@
 //
 //  OTBroadcastExtHelper.h
-//  OpenTok Live
+//  OpenTokLive
 //
 //  Created .
 //  Copyright © 2019 TokBox, Inc. All rights reserved.

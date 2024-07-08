@@ -28,12 +28,21 @@ Guide to Run the Application
 
 
 ##Project Setup Instructions:
-
 Navigate to the On24ScreenShare folder.
+Open Terminal and run the command pod install.
+In case pod install does not work, follow the sequence given below:
+
+delete the Podfile.lock file
+rm -rf pods
+pod cache clean --all
+pod deintegrate
+pod setup
+pod install
+
 Open On24ScreenShare.xcworkspace.
-Configure the Bundle Identifier and App Groups at the Apple Developer portal, follow URL to setup required things. (https://developer.apple.com/help/account/manage-identifiers/register-an-app-id).
-Change the App group name and preferredExtension in ViewController.
+Configure the Bundle Identifier and App Groups at the Apple Developer portal, 
+follow URL to setup required things. (https://developer.apple.com/help/account/manage-identifiers/register-an-app-id).
+# Change Group Name
+1.Change the App group name and preferredExtension in ViewController.
+2.OpenTokLive ->SampleHandler->Change the value of kGroupName variable.
 Build and run the app in real device.
-
-
-

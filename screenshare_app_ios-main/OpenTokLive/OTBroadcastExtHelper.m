@@ -1,6 +1,6 @@
 //
 //  OTBroadcastExtHelper.m
-//  OpenTok Live
+//  OpenTokLive
 //
 //  Created .
 //  Copyright © 2019 TokBox, Inc. All rights reserved.
@@ -79,6 +79,7 @@
     if (_partnerId.length == 0 || _sessionId.length == 0 || _token.length == 0)
     {
         [self showMessage:@"[ERROR] Invalid OpenTok session info."];
+        [self.delegate finishedStream:@"Invalid session info"];
         return;
     }
     

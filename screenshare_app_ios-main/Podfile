@@ -1,0 +1,12 @@
+
+#require_relative '../OpenTokSDKVersion'
+
+platform :ios, 13.0
+use_frameworks!
+
+target 'On24ScreenShare' do
+    target 'OpenTokLive' do
+        pod 'OTXCFramework'
+    end
+    
+end

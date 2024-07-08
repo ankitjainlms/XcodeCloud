@@ -13,5 +13,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) NSMutableDictionary *dicVonageInfo;
+- (NSMutableDictionary *)prepareDictionaryWithQueryPram:(NSURL *)url ;
 
 @end
