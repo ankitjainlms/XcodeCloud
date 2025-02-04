@@ -46,3 +46,4 @@ follow URL to setup required things. (https://developer.apple.com/help/account/m
 1.Change the App group name and preferredExtension in ViewController.
 2.OpenTokLive ->SampleHandler->Change the value of kGroupName variable.
 Build and run the app in real device.
+

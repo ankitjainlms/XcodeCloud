@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3C25B7FA22F7C7BF00AEBC7C"
-               BuildableName = "OpenTokLive.appex"
-               BlueprintName = "OpenTokLive"
+               BuildableName = "OpenTok Live.appex"
+               BlueprintName = "OpenTok Live"
                ReferencedContainer = "container:On24ScreenShare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,41 +44,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2A347622C2EF13B00902EC0"
-               BuildableName = "On24ScreenShareTests.xctest"
-               BlueprintName = "On24ScreenShareTests"
-               ReferencedContainer = "container:On24ScreenShare.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2A3476F2C2EF1B800902EC0"
-               BuildableName = "On24ScreenShareUITests.xctest"
-               BlueprintName = "On24ScreenShareUITests"
-               ReferencedContainer = "container:On24ScreenShare.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2A3478B2C32B1C500902EC0"
-               BuildableName = "BroadcastExtensionTests.xctest"
-               BlueprintName = "BroadcastExtensionTests"
-               ReferencedContainer = "container:On24ScreenShare.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -109,6 +74,7 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">

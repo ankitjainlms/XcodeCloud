@@ -65,9 +65,28 @@
     
     return  YES;
     
+}
+
+- (BOOL)application:(UIApplication *)application
+    continueUserActivity:(NSUserActivity *)userActivity
+    restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
     
+    if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+        NSURL *incomingURL = userActivity.webpageURL;
+        if (incomingURL) {
+            NSString *path = incomingURL.path;
+            NSLog(@"Path: %@", path);  // Get the path, e.g., "/screenshare/..."
+            
+            // Extract query parameters
+            self.dicVonageInfo = [self prepareDictionaryWithQueryPram:incomingURL];
+            NSLog(@"query dict: %@", self.dicVonageInfo);
+            
+            // Notify observers of the URL reception
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"ScreenShareUrlReceived" object:nil];
+        }
+    }
     
-    
+    return YES;
 }
 
 

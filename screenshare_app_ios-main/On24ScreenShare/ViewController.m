@@ -52,6 +52,7 @@ UIDeviceOrientation newOrientation;
                                              selector:@selector(handleAppTerminated:)
                                                  name:@"AppTerminated" object:nil];
     [self setupView];
+    
 }
 
 
@@ -71,6 +72,9 @@ UIDeviceOrientation newOrientation;
         
     }
 }
+
+
+
 #pragma mark setupView
 
 - (void)setupView {
@@ -140,11 +144,17 @@ UIDeviceOrientation newOrientation;
         NSString *strApi = dic[@"apiVonage"];
         NSString *strSessionId = dic[@"sessionIdVonage"];
         NSString *strToken = dic[@"tokenVonage"];
+        NSString *strParticipantId = dic[@"participantIdVonage"];
+        NSString *stridOn24 = dic[@"idOn24Vonage"];
+        NSString *strControlServer = dic[@"controlServerVonage"];
         
         if ([self isValidApiKey:strApi] && [self isValidSessionId:strSessionId] && [self isValidToken:strToken]) {
             [userDefaults setObject:strApi forKey:@"apiKey"];
             [userDefaults setObject:strSessionId forKey:@"sessionId"];
             [userDefaults setObject:strToken forKey:@"token"];
+            [userDefaults setObject:strParticipantId forKey:@"participantId"];
+            [userDefaults setObject:stridOn24 forKey:@"idOn24"];
+            [userDefaults setObject:strControlServer forKey:@"controlServer"];
             
             [self handleBroadcasting];
         }
@@ -159,14 +169,13 @@ UIDeviceOrientation newOrientation;
 
 
        // testing for UI :-show button of braodcast
-        NSDictionary *environment = [[NSProcessInfo processInfo] environment];
-        NSString *uiTestRunning = environment[@"UITEST_RUNNING"];
-        
-        if ([uiTestRunning isEqualToString:@"YES"]) {
-            NSLog(@"Running UI tests...");
-            [self.ViewScreenShare setHidden:false];
-        }
-        
+//        NSDictionary *environment = [[NSProcessInfo processInfo] environment];
+//        NSString *uiTestRunning = environment[@"UITEST_RUNNING"];
+//        
+//        if ([uiTestRunning isEqualToString:@"YES"]) {
+//            NSLog(@"Running UI tests...");
+//            [self.ViewScreenShare setHidden:false];
+//        }
     
 }
 
@@ -194,7 +203,8 @@ UIDeviceOrientation newOrientation;
         
         if (dic[@"apiVonage"] != nil &&
             dic[@"sessionIdVonage"] != nil &&
-            dic[@"tokenVonage"] != nil) {
+            dic[@"tokenVonage"] != nil && dic[@"participantIdVonage"] != nil && dic[@"idOn24Vonage"] != nil) {
+            
             return true;
         }
     }
@@ -256,6 +266,9 @@ UIDeviceOrientation newOrientation;
     [userDefaults removeObjectForKey:@"apiKey"];
     [userDefaults removeObjectForKey:@"sessionId"];
     [userDefaults removeObjectForKey:@"token"];
+    [userDefaults removeObjectForKey:@"participantId"];
+    [userDefaults removeObjectForKey:@"idOn24"];
+    
     userDefaults = nil;
     
     // Set other properties to nil to ensure proper memory management

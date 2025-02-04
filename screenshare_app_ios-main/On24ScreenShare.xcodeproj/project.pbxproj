@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13D10F6E4E19E2F6B1511411 /* Pods_On24ScreenShare_OpenTokLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243C7C6EA9E54238405D3105 /* Pods_On24ScreenShare_OpenTokLive.framework */; };
 		3C25B7FD22F7C7BF00AEBC7C /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C25B7FC22F7C7BF00AEBC7C /* ReplayKit.framework */; };
 		3C25B80122F7C7BF00AEBC7C /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C25B80022F7C7BF00AEBC7C /* SampleHandler.m */; };
-		3C25B81422F7C7C000AEBC7C /* OpenTokLive.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C25B7FB22F7C7BF00AEBC7C /* OpenTokLive.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C25B81422F7C7C000AEBC7C /* OpenTok Live.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3CC0876922F8CBD500E5BADB /* OTBroadcastExtHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0876822F8CBD500E5BADB /* OTBroadcastExtHelper.m */; };
-		8CDD238A155F1CDBEFD78A2E /* Pods_On24ScreenShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A831BCDA78F5A93685E3E2A /* Pods_On24ScreenShare.framework */; };
+		98927AC2779377B536356EE8 /* Pods_On24ScreenShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */; };
 		C26DC5EA2BECF3F00049758E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D442614B185F92BF00E23699 /* README.md */; };
 		C26DC5ED2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */; };
-		C2A347662C2EF13B00902EC0 /* On24ScreenShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A347652C2EF13B00902EC0 /* On24ScreenShareTests.swift */; };
-		C2A347732C2EF1B800902EC0 /* On24ScreenShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A347722C2EF1B800902EC0 /* On24ScreenShareUITests.swift */; };
-		C2A347752C2EF1B800902EC0 /* On24ScreenShareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A347742C2EF1B800902EC0 /* On24ScreenShareUITestsLaunchTests.swift */; };
-		C2A3479A2C32D94B00902EC0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A347992C32D94B00902EC0 /* Constant.swift */; };
 		C2ACAE232BECCE13007179E5 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE072BECCE13007179E5 /* OpenSans-Medium.ttf */; };
 		C2ACAE242BECCE13007179E5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE082BECCE13007179E5 /* OpenSans-Regular.ttf */; };
 		C2ACAE252BECCE13007179E5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE092BECCE13007179E5 /* OpenSans-SemiBold.ttf */; };
@@ -33,33 +28,12 @@
 		C2ACAE322BECCE13007179E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ACAE1C2BECCE13007179E5 /* main.m */; };
 		C2ACAE332BECCE13007179E5 /* Splashscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE1D2BECCE13007179E5 /* Splashscreen.storyboard */; };
 		C2ACAE342BECCE13007179E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ACAE1F2BECCE13007179E5 /* ViewController.m */; };
-		C2C26EB62C36CC3C00E2E2FC /* BroadcastExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3478E2C32B1C500902EC0 /* BroadcastExtensionTests.swift */; };
 		C2CAB6462A70FDE300523471 /* OpenTok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAB6452A70FDE300523471 /* OpenTok.xcframework */; };
 		C2CAB6492A70FDEE00523471 /* OpenTok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAB6452A70FDE300523471 /* OpenTok.xcframework */; };
+		C77E71FAF52CFB1549587176 /* Pods_On24ScreenShare_OpenTok_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C2A347672C2EF13B00902EC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D44260EB185F81D800E23699 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D44260F2185F81D800E23699;
-			remoteInfo = On24ScreenShare;
-		};
-		C2A347762C2EF1B800902EC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D44260EB185F81D800E23699 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D44260F2185F81D800E23699;
-			remoteInfo = On24ScreenShare;
-		};
-		C2A347952C32B53C00902EC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D44260EB185F81D800E23699 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C25B7FA22F7C7BF00AEBC7C;
-			remoteInfo = OpenTokLive;
-		};
 		C2ACAE362BECDA03007179E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D44260EB185F81D800E23699 /* Project object */;
@@ -76,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3C25B81422F7C7C000AEBC7C /* OpenTokLive.appex in Embed App Extensions */,
+				3C25B81422F7C7C000AEBC7C /* OpenTok Live.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,9 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		22417226CC1900C65ACC4DBA /* Pods-On24ScreenShare-OpenTokLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTokLive.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTokLive/Pods-On24ScreenShare-OpenTokLive.release.xcconfig"; sourceTree = "<group>"; };
-		243C7C6EA9E54238405D3105 /* Pods_On24ScreenShare_OpenTokLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare_OpenTokLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C25B7FB22F7C7BF00AEBC7C /* OpenTokLive.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OpenTokLive.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTok Live.debug.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live.debug.xcconfig"; sourceTree = "<group>"; };
+		3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenTok Live.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C25B7FC22F7C7BF00AEBC7C /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		3C25B7FF22F7C7BF00AEBC7C /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
 		3C25B80022F7C7BF00AEBC7C /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
@@ -94,21 +68,10 @@
 		3C25B81F22F7D30000AEBC7C /* OpenTokLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenTokLive.entitlements; sourceTree = "<group>"; };
 		3CC0876722F8CBD500E5BADB /* OTBroadcastExtHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtHelper.h; sourceTree = "<group>"; };
 		3CC0876822F8CBD500E5BADB /* OTBroadcastExtHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtHelper.m; sourceTree = "<group>"; };
-		7A831BCDA78F5A93685E3E2A /* Pods_On24ScreenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3934645EFF1EE4AD3FABA33 /* Pods-On24ScreenShare-OpenTokLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTokLive.debug.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTokLive/Pods-On24ScreenShare-OpenTokLive.debug.xcconfig"; sourceTree = "<group>"; };
+		9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; sourceTree = "<group>"; };
+		A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare_OpenTok_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtAudioDevice.m; sourceTree = "<group>"; };
 		C26DC5EC2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtAudioDevice.h; sourceTree = "<group>"; };
-		C2A347632C2EF13B00902EC0 /* On24ScreenShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = On24ScreenShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A347652C2EF13B00902EC0 /* On24ScreenShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On24ScreenShareTests.swift; sourceTree = "<group>"; };
-		C2A347702C2EF1B800902EC0 /* On24ScreenShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = On24ScreenShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A347722C2EF1B800902EC0 /* On24ScreenShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On24ScreenShareUITests.swift; sourceTree = "<group>"; };
-		C2A347742C2EF1B800902EC0 /* On24ScreenShareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On24ScreenShareUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C2A3477B2C2EF38900902EC0 /* On24ScreenShare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "On24ScreenShare-Bridging-Header.h"; sourceTree = "<group>"; };
-		C2A3477C2C328E6D00902EC0 /* OpenTokLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTokLive-Bridging-Header.h"; sourceTree = "<group>"; };
-		C2A3478C2C32B1C500902EC0 /* BroadcastExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroadcastExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A3478E2C32B1C500902EC0 /* BroadcastExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastExtensionTests.swift; sourceTree = "<group>"; };
-		C2A347992C32D94B00902EC0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		C2A3479B2C35234900902EC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2ACAE072BECCE13007179E5 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
 		C2ACAE082BECCE13007179E5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		C2ACAE092BECCE13007179E5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -127,7 +90,6 @@
 		C2ACAE1D2BECCE13007179E5 /* Splashscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splashscreen.storyboard; sourceTree = "<group>"; };
 		C2ACAE1E2BECCE13007179E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2ACAE1F2BECCE13007179E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C2C26EB82C3BB8FE00E2E2FC /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		C2CAB6452A70FDE300523471 /* OpenTok.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenTok.xcframework; path = Pods/OTXCFramework/OpenTok.xcframework; sourceTree = "<group>"; };
 		CC346971B22EB3A78FB23BCF /* Pods-On24ScreenShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare.release.xcconfig"; sourceTree = "<group>"; };
 		D44260F3185F81D800E23699 /* On24ScreenShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = On24ScreenShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,28 +106,7 @@
 			files = (
 				3C25B7FD22F7C7BF00AEBC7C /* ReplayKit.framework in Frameworks */,
 				C2CAB6492A70FDEE00523471 /* OpenTok.xcframework in Frameworks */,
-				13D10F6E4E19E2F6B1511411 /* Pods_On24ScreenShare_OpenTokLive.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A347602C2EF13B00902EC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A3476D2C2EF1B800902EC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A347892C32B1C500902EC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C77E71FAF52CFB1549587176 /* Pods_On24ScreenShare_OpenTok_Live.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,14 +115,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2CAB6462A70FDE300523471 /* OpenTok.xcframework in Frameworks */,
-				8CDD238A155F1CDBEFD78A2E /* Pods_On24ScreenShare.framework in Frameworks */,
+				98927AC2779377B536356EE8 /* Pods_On24ScreenShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C25B7FE22F7C7BF00AEBC7C /* OpenTokLive */ = {
+		3C25B7FE22F7C7BF00AEBC7C /* OpenTok Live */ = {
 			isa = PBXGroup;
 			children = (
 				3C25B81F22F7D30000AEBC7C /* OpenTokLive.entitlements */,
@@ -193,7 +134,7 @@
 				C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */,
 				3C25B80222F7C7BF00AEBC7C /* Info.plist */,
 			);
-			path = OpenTokLive;
+			path = "OpenTok Live";
 			sourceTree = "<group>";
 		};
 		7B951947CB33756CB5C2C290 /* Pods */ = {
@@ -201,36 +142,10 @@
 			children = (
 				CC346971B22EB3A78FB23BCF /* Pods-On24ScreenShare.release.xcconfig */,
 				EB8CA82BBFF65F99566287CC /* Pods-On24ScreenShare.debug.xcconfig */,
-				22417226CC1900C65ACC4DBA /* Pods-On24ScreenShare-OpenTokLive.release.xcconfig */,
-				A3934645EFF1EE4AD3FABA33 /* Pods-On24ScreenShare-OpenTokLive.debug.xcconfig */,
+				9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */,
+				2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C2A347642C2EF13B00902EC0 /* On24ScreenShareTests */ = {
-			isa = PBXGroup;
-			children = (
-				C2A347652C2EF13B00902EC0 /* On24ScreenShareTests.swift */,
-				C2A347992C32D94B00902EC0 /* Constant.swift */,
-			);
-			path = On24ScreenShareTests;
-			sourceTree = "<group>";
-		};
-		C2A347712C2EF1B800902EC0 /* On24ScreenShareUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C2A347722C2EF1B800902EC0 /* On24ScreenShareUITests.swift */,
-				C2A347742C2EF1B800902EC0 /* On24ScreenShareUITestsLaunchTests.swift */,
-			);
-			path = On24ScreenShareUITests;
-			sourceTree = "<group>";
-		};
-		C2A3478D2C32B1C500902EC0 /* BroadcastExtensionTests */ = {
-			isa = PBXGroup;
-			children = (
-				C2A3478E2C32B1C500902EC0 /* BroadcastExtensionTests.swift */,
-			);
-			path = BroadcastExtensionTests;
 			sourceTree = "<group>";
 		};
 		C2ACAE0D2BECCE13007179E5 /* Fonts */ = {
@@ -266,29 +181,15 @@
 			path = On24ScreenShare;
 			sourceTree = "<group>";
 		};
-		C2C26EB72C3BB82E00E2E2FC /* ci_scripts */ = {
-			isa = PBXGroup;
-			children = (
-				C2C26EB82C3BB8FE00E2E2FC /* ci_post_clone.sh */,
-			);
-			path = ci_scripts;
-			sourceTree = "<group>";
-		};
 		D44260EA185F81D800E23699 = {
 			isa = PBXGroup;
 			children = (
-				C2C26EB72C3BB82E00E2E2FC /* ci_scripts */,
-				C2A3477B2C2EF38900902EC0 /* On24ScreenShare-Bridging-Header.h */,
 				D442614B185F92BF00E23699 /* README.md */,
 				C2ACAE202BECCE13007179E5 /* On24ScreenShare */,
-				3C25B7FE22F7C7BF00AEBC7C /* OpenTokLive */,
-				C2A347642C2EF13B00902EC0 /* On24ScreenShareTests */,
-				C2A347712C2EF1B800902EC0 /* On24ScreenShareUITests */,
-				C2A3478D2C32B1C500902EC0 /* BroadcastExtensionTests */,
+				3C25B7FE22F7C7BF00AEBC7C /* OpenTok Live */,
 				D44260F5185F81D800E23699 /* Frameworks */,
 				D44260F4185F81D800E23699 /* Products */,
 				7B951947CB33756CB5C2C290 /* Pods */,
-				C2A3477C2C328E6D00902EC0 /* OpenTokLive-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,10 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				D44260F3185F81D800E23699 /* On24ScreenShare.app */,
-				3C25B7FB22F7C7BF00AEBC7C /* OpenTokLive.appex */,
-				C2A347632C2EF13B00902EC0 /* On24ScreenShareTests.xctest */,
-				C2A347702C2EF1B800902EC0 /* On24ScreenShareUITests.xctest */,
-				C2A3478C2C32B1C500902EC0 /* BroadcastExtensionTests.xctest */,
+				3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,13 +205,12 @@
 		D44260F5185F81D800E23699 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2A3479B2C35234900902EC0 /* XCTest.framework */,
 				C2CAB6452A70FDE300523471 /* OpenTok.xcframework */,
 				D44260F6185F81D800E23699 /* Foundation.framework */,
 				D44260FA185F81D800E23699 /* UIKit.framework */,
 				3C25B7FC22F7C7BF00AEBC7C /* ReplayKit.framework */,
-				7A831BCDA78F5A93685E3E2A /* Pods_On24ScreenShare.framework */,
-				243C7C6EA9E54238405D3105 /* Pods_On24ScreenShare_OpenTokLive.framework */,
+				0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */,
+				A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -321,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C25B7FA22F7C7BF00AEBC7C /* OpenTokLive */ = {
+		3C25B7FA22F7C7BF00AEBC7C /* OpenTok Live */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C25B81822F7C7C000AEBC7C /* Build configuration list for PBXNativeTarget "OpenTokLive" */;
+			buildConfigurationList = 3C25B81822F7C7C000AEBC7C /* Build configuration list for PBXNativeTarget "OpenTok Live" */;
 			buildPhases = (
 				DFB3BDC28EA59B3B1B2C1DA6 /* [CP] Check Pods Manifest.lock */,
 				3C25B7F722F7C7BF00AEBC7C /* Sources */,
@@ -335,64 +232,10 @@
 			);
 			dependencies = (
 			);
-			name = OpenTokLive;
+			name = "OpenTok Live";
 			productName = "OpenTok Live";
-			productReference = 3C25B7FB22F7C7BF00AEBC7C /* OpenTokLive.appex */;
+			productReference = 3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */;
 			productType = "com.apple.product-type.app-extension";
-		};
-		C2A347622C2EF13B00902EC0 /* On24ScreenShareTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2A347692C2EF13B00902EC0 /* Build configuration list for PBXNativeTarget "On24ScreenShareTests" */;
-			buildPhases = (
-				C2A3475F2C2EF13B00902EC0 /* Sources */,
-				C2A347602C2EF13B00902EC0 /* Frameworks */,
-				C2A347612C2EF13B00902EC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2A347682C2EF13B00902EC0 /* PBXTargetDependency */,
-			);
-			name = On24ScreenShareTests;
-			productName = On24ScreenShareTests;
-			productReference = C2A347632C2EF13B00902EC0 /* On24ScreenShareTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C2A3476F2C2EF1B800902EC0 /* On24ScreenShareUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2A347782C2EF1B800902EC0 /* Build configuration list for PBXNativeTarget "On24ScreenShareUITests" */;
-			buildPhases = (
-				C2A3476C2C2EF1B800902EC0 /* Sources */,
-				C2A3476D2C2EF1B800902EC0 /* Frameworks */,
-				C2A3476E2C2EF1B800902EC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2A347772C2EF1B800902EC0 /* PBXTargetDependency */,
-			);
-			name = On24ScreenShareUITests;
-			productName = On24ScreenShareUITests;
-			productReference = C2A347702C2EF1B800902EC0 /* On24ScreenShareUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		C2A3478B2C32B1C500902EC0 /* BroadcastExtensionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2A347922C32B1C500902EC0 /* Build configuration list for PBXNativeTarget "BroadcastExtensionTests" */;
-			buildPhases = (
-				C2A347882C32B1C500902EC0 /* Sources */,
-				C2A347892C32B1C500902EC0 /* Frameworks */,
-				C2A3478A2C32B1C500902EC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2A347962C32B53C00902EC0 /* PBXTargetDependency */,
-			);
-			name = BroadcastExtensionTests;
-			productName = BroadcastExtensionTests;
-			productReference = C2A3478C2C32B1C500902EC0 /* BroadcastExtensionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D44260F2185F81D800E23699 /* On24ScreenShare */ = {
 			isa = PBXNativeTarget;
@@ -421,27 +264,11 @@
 		D44260EB185F81D800E23699 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "TokBox, Inc.";
 				TargetAttributes = {
 					3C25B7FA22F7C7BF00AEBC7C = {
 						CreatedOnToolsVersion = 10.2;
-						LastSwiftMigration = 1530;
-					};
-					C2A347622C2EF13B00902EC0 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = D44260F2185F81D800E23699;
-					};
-					C2A3476F2C2EF1B800902EC0 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = D44260F2185F81D800E23699;
-					};
-					C2A3478B2C32B1C500902EC0 = {
-						CreatedOnToolsVersion = 15.3;
-					};
-					D44260F2185F81D800E23699 = {
-						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -460,37 +287,13 @@
 			projectRoot = "";
 			targets = (
 				D44260F2185F81D800E23699 /* On24ScreenShare */,
-				3C25B7FA22F7C7BF00AEBC7C /* OpenTokLive */,
-				C2A347622C2EF13B00902EC0 /* On24ScreenShareTests */,
-				C2A3476F2C2EF1B800902EC0 /* On24ScreenShareUITests */,
-				C2A3478B2C32B1C500902EC0 /* BroadcastExtensionTests */,
+				3C25B7FA22F7C7BF00AEBC7C /* OpenTok Live */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3C25B7F922F7C7BF00AEBC7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A347612C2EF13B00902EC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A3476E2C2EF1B800902EC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A3478A2C32B1C500902EC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,7 +345,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTokLive/Pods-On24ScreenShare-OpenTokLive-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live-resources.sh",
 				"${PODS_ROOT}/OTXCFramework/OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -551,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTokLive/Pods-On24ScreenShare-OpenTokLive-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live-resources.sh\"\n";
 		};
 		D48CF7764A14A22E33841861 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -590,7 +393,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-On24ScreenShare-OpenTokLive-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-On24ScreenShare-OpenTok Live-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -610,32 +413,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2A3475F2C2EF13B00902EC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2A347662C2EF13B00902EC0 /* On24ScreenShareTests.swift in Sources */,
-				C2A3479A2C32D94B00902EC0 /* Constant.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A3476C2C2EF1B800902EC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2A347732C2EF1B800902EC0 /* On24ScreenShareUITests.swift in Sources */,
-				C2A347752C2EF1B800902EC0 /* On24ScreenShareUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2A347882C32B1C500902EC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2C26EB62C36CC3C00E2E2FC /* BroadcastExtensionTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D44260EF185F81D800E23699 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,24 +426,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2A347682C2EF13B00902EC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D44260F2185F81D800E23699 /* On24ScreenShare */;
-			targetProxy = C2A347672C2EF13B00902EC0 /* PBXContainerItemProxy */;
-		};
-		C2A347772C2EF1B800902EC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D44260F2185F81D800E23699 /* On24ScreenShare */;
-			targetProxy = C2A347762C2EF1B800902EC0 /* PBXContainerItemProxy */;
-		};
-		C2A347962C32B53C00902EC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C25B7FA22F7C7BF00AEBC7C /* OpenTokLive */;
-			targetProxy = C2A347952C32B53C00902EC0 /* PBXContainerItemProxy */;
-		};
 		C2ACAE372BECDA03007179E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C25B7FA22F7C7BF00AEBC7C /* OpenTokLive */;
+			target = 3C25B7FA22F7C7BF00AEBC7C /* OpenTok Live */;
 			targetProxy = C2ACAE362BECDA03007179E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -674,17 +436,16 @@
 /* Begin XCBuildConfiguration section */
 		3C25B81922F7C7C000AEBC7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22417226CC1900C65ACC4DBA /* Pods-On24ScreenShare-OpenTokLive.release.xcconfig */;
+			baseConfigurationReference = 9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = OpenTokLive/OpenTokLive.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "OpenTok Live/OpenTokLive.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -699,7 +460,7 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = OpenTokLive/Info.plist;
+				INFOPLIST_FILE = "OpenTok Live/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -716,25 +477,22 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "OpenTokLive-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		3C25B81A22F7C7C000AEBC7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3934645EFF1EE4AD3FABA33 /* Pods-On24ScreenShare-OpenTokLive.debug.xcconfig */;
+			baseConfigurationReference = 2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = OpenTokLive/OpenTokLive.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "OpenTok Live/OpenTokLive.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -755,7 +513,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = OpenTokLive/Info.plist;
+				INFOPLIST_FILE = "OpenTok Live/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -772,266 +530,6 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "OpenTokLive-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C2A3476A2C2EF13B00902EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.On24ScreenShareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/On24ScreenShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/On24ScreenShare";
-			};
-			name = Release;
-		};
-		C2A3476B2C2EF13B00902EC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.On24ScreenShareTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/On24ScreenShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/On24ScreenShare";
-			};
-			name = Debug;
-		};
-		C2A347792C2EF1B800902EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.On24ScreenShareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = On24ScreenShare;
-			};
-			name = Release;
-		};
-		C2A3477A2C2EF1B800902EC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.On24ScreenShareUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = On24ScreenShare;
-			};
-			name = Debug;
-		};
-		C2A347932C32B1C500902EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.BroadcastExtensionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "OpenTokLive-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C2A347942C32B1C500902EC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = RSJL44J28C;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Lms.BroadcastExtensionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "OpenTokLive-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1075,7 +573,6 @@
 				INFOPLIST_FILE = "$(SRCROOT)/On24ScreenShare/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "On24ScreenShare-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALIDATE_WORKSPACE = YES;
@@ -1089,11 +586,10 @@
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = On24ScreenShare/On24ScreenShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_TEAM = RSJL44J28C;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
@@ -1104,10 +600,6 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/On24ScreenShare/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "On24 Screen Share";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1123,8 +615,6 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "On24ScreenShare-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1171,7 +661,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "On24ScreenShare-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALIDATE_WORKSPACE = YES;
@@ -1185,11 +674,10 @@
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = On24ScreenShare/On24ScreenShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_TEAM = RSJL44J28C;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
@@ -1200,10 +688,6 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/On24ScreenShare/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "On24 Screen Share";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1219,8 +703,6 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "On24ScreenShare-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1229,38 +711,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C25B81822F7C7C000AEBC7C /* Build configuration list for PBXNativeTarget "OpenTokLive" */ = {
+		3C25B81822F7C7C000AEBC7C /* Build configuration list for PBXNativeTarget "OpenTok Live" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C25B81922F7C7C000AEBC7C /* Release */,
 				3C25B81A22F7C7C000AEBC7C /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2A347692C2EF13B00902EC0 /* Build configuration list for PBXNativeTarget "On24ScreenShareTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2A3476A2C2EF13B00902EC0 /* Release */,
-				C2A3476B2C2EF13B00902EC0 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2A347782C2EF1B800902EC0 /* Build configuration list for PBXNativeTarget "On24ScreenShareUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2A347792C2EF1B800902EC0 /* Release */,
-				C2A3477A2C2EF1B800902EC0 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2A347922C32B1C500902EC0 /* Build configuration list for PBXNativeTarget "BroadcastExtensionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2A347932C32B1C500902EC0 /* Release */,
-				C2A347942C32B1C500902EC0 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

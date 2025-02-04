@@ -16,7 +16,6 @@
 @property (strong, nonatomic) IBOutlet UIView *ViewScreenShare;
 @property (strong, nonatomic) IBOutlet RPSystemBroadcastPickerView *viewCenter;
 
-//validation method
 -(bool)isValidDic:(NSMutableDictionary*)dic;
 -(bool)isValidApiKey:(NSString*)api;
 -(bool)isValidSessionId:(NSString*)sessionId;
