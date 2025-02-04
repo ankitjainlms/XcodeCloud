@@ -16,7 +16,7 @@
 #define kVideoFrameScaleFactor IDIOM == IPAD ? 0.40:0.30
 
 // Replace with your group key
-static NSString* const kGroupName = @"group.RSJL44J28C.com.Test.Lms";
+static NSString* const kGroupName = @"group.com.lms.xcodecloude";
 
 
 @interface SampleHandler()<OTBroadcastExtHelperDelegate> {

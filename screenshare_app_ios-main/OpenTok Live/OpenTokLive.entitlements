@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.RSJL44J28C.com.Test.Lms</string>
+		<string>group.com.lms.xcodecloude</string>
 	</array>
 </dict>
 </plist>

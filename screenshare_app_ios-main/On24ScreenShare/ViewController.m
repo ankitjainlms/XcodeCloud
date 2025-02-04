@@ -11,9 +11,9 @@
 
 
 // Replace with your group key
-static NSString* const kGroupName = @"group.RSJL44J28C.com.Test.Lms";
+static NSString* const kGroupName = @"group.com.lms.xcodecloude";
 // Replace with your Extension ID
-static NSString* const kPreferredExtension = @"com.Test.Lms.BroadcastUpload";
+static NSString* const kPreferredExtension = @"com.lms.xcodecloude.broadcast";
 
 @interface ViewController ()
 
