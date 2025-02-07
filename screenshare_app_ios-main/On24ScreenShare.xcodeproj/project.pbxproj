@@ -11,7 +11,8 @@
 		3C25B80122F7C7BF00AEBC7C /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C25B80022F7C7BF00AEBC7C /* SampleHandler.m */; };
 		3C25B81422F7C7C000AEBC7C /* OpenTok Live.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3CC0876922F8CBD500E5BADB /* OTBroadcastExtHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0876822F8CBD500E5BADB /* OTBroadcastExtHelper.m */; };
-		98927AC2779377B536356EE8 /* Pods_On24ScreenShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */; };
+		43E6ACE1BCB0CF63A3C57F70 /* Pods_OpenTok_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595332AAAE5F6AE3884D9E06 /* Pods_OpenTok_Live.framework */; };
+		A81D4F216DE3AA084B431BDF /* Pods_On24ScreenShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7919AAE415BFFE4FDD093C9E /* Pods_On24ScreenShare.framework */; };
 		C26DC5EA2BECF3F00049758E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D442614B185F92BF00E23699 /* README.md */; };
 		C26DC5ED2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */; };
 		C2ACAE232BECCE13007179E5 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE072BECCE13007179E5 /* OpenSans-Medium.ttf */; };
@@ -28,9 +29,8 @@
 		C2ACAE322BECCE13007179E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ACAE1C2BECCE13007179E5 /* main.m */; };
 		C2ACAE332BECCE13007179E5 /* Splashscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACAE1D2BECCE13007179E5 /* Splashscreen.storyboard */; };
 		C2ACAE342BECCE13007179E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ACAE1F2BECCE13007179E5 /* ViewController.m */; };
-		C2CAB6462A70FDE300523471 /* OpenTok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAB6452A70FDE300523471 /* OpenTok.xcframework */; };
-		C2CAB6492A70FDEE00523471 /* OpenTok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAB6452A70FDE300523471 /* OpenTok.xcframework */; };
-		C77E71FAF52CFB1549587176 /* Pods_On24ScreenShare_OpenTok_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */; };
+		CE67320D2D52588D0081225F /* VonageClientSDKVideo in Frameworks */ = {isa = PBXBuildFile; productRef = CE67320C2D52588D0081225F /* VonageClientSDKVideo */; };
+		CE8E62E62D5625F90004ECB7 /* ci_post_clone.sh in Resources */ = {isa = PBXBuildFile; fileRef = CE8E62E52D5625F90004ECB7 /* ci_post_clone.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTok Live.debug.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live.debug.xcconfig"; sourceTree = "<group>"; };
+		17A16B407E41F600179EA9BA /* Pods-On24ScreenShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare.release.xcconfig"; sourceTree = "<group>"; };
+		1F2ED675CC9378AE86828073 /* Pods-OpenTok Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok Live.debug.xcconfig"; path = "Target Support Files/Pods-OpenTok Live/Pods-OpenTok Live.debug.xcconfig"; sourceTree = "<group>"; };
 		3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenTok Live.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C25B7FC22F7C7BF00AEBC7C /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		3C25B7FF22F7C7BF00AEBC7C /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
@@ -68,8 +68,10 @@
 		3C25B81F22F7D30000AEBC7C /* OpenTokLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenTokLive.entitlements; sourceTree = "<group>"; };
 		3CC0876722F8CBD500E5BADB /* OTBroadcastExtHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtHelper.h; sourceTree = "<group>"; };
 		3CC0876822F8CBD500E5BADB /* OTBroadcastExtHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtHelper.m; sourceTree = "<group>"; };
-		9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live.release.xcconfig"; sourceTree = "<group>"; };
-		A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare_OpenTok_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595332AAAE5F6AE3884D9E06 /* Pods_OpenTok_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTok_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675A7E38EA416040E3400A90 /* Pods-On24ScreenShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare.debug.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare.debug.xcconfig"; sourceTree = "<group>"; };
+		7919AAE415BFFE4FDD093C9E /* Pods_On24ScreenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On24ScreenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA401E9C5B00659B744F93B /* Pods-OpenTok Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTok Live.release.xcconfig"; path = "Target Support Files/Pods-OpenTok Live/Pods-OpenTok Live.release.xcconfig"; sourceTree = "<group>"; };
 		C26DC5EB2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTBroadcastExtAudioDevice.m; sourceTree = "<group>"; };
 		C26DC5EC2BF4BA5D0049758E /* OTBroadcastExtAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTBroadcastExtAudioDevice.h; sourceTree = "<group>"; };
 		C2ACAE072BECCE13007179E5 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -90,13 +92,11 @@
 		C2ACAE1D2BECCE13007179E5 /* Splashscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splashscreen.storyboard; sourceTree = "<group>"; };
 		C2ACAE1E2BECCE13007179E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2ACAE1F2BECCE13007179E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C2CAB6452A70FDE300523471 /* OpenTok.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenTok.xcframework; path = Pods/OTXCFramework/OpenTok.xcframework; sourceTree = "<group>"; };
-		CC346971B22EB3A78FB23BCF /* Pods-On24ScreenShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare.release.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare.release.xcconfig"; sourceTree = "<group>"; };
+		CE8E62E52D5625F90004ECB7 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		D44260F3185F81D800E23699 /* On24ScreenShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = On24ScreenShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44260F6185F81D800E23699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D44260FA185F81D800E23699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D442614B185F92BF00E23699 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		EB8CA82BBFF65F99566287CC /* Pods-On24ScreenShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On24ScreenShare.debug.xcconfig"; path = "Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE67320D2D52588D0081225F /* VonageClientSDKVideo in Frameworks */,
 				3C25B7FD22F7C7BF00AEBC7C /* ReplayKit.framework in Frameworks */,
-				C2CAB6492A70FDEE00523471 /* OpenTok.xcframework in Frameworks */,
-				C77E71FAF52CFB1549587176 /* Pods_On24ScreenShare_OpenTok_Live.framework in Frameworks */,
+				43E6ACE1BCB0CF63A3C57F70 /* Pods_OpenTok_Live.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CAB6462A70FDE300523471 /* OpenTok.xcframework in Frameworks */,
-				98927AC2779377B536356EE8 /* Pods_On24ScreenShare.framework in Frameworks */,
+				A81D4F216DE3AA084B431BDF /* Pods_On24ScreenShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,14 +136,15 @@
 			path = "OpenTok Live";
 			sourceTree = "<group>";
 		};
-		7B951947CB33756CB5C2C290 /* Pods */ = {
+		BE4EE72081C878A6A4E7C504 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC346971B22EB3A78FB23BCF /* Pods-On24ScreenShare.release.xcconfig */,
-				EB8CA82BBFF65F99566287CC /* Pods-On24ScreenShare.debug.xcconfig */,
-				9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */,
-				2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */,
+				17A16B407E41F600179EA9BA /* Pods-On24ScreenShare.release.xcconfig */,
+				675A7E38EA416040E3400A90 /* Pods-On24ScreenShare.debug.xcconfig */,
+				BFA401E9C5B00659B744F93B /* Pods-OpenTok Live.release.xcconfig */,
+				1F2ED675CC9378AE86828073 /* Pods-OpenTok Live.debug.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -181,15 +181,24 @@
 			path = On24ScreenShare;
 			sourceTree = "<group>";
 		};
+		CE8E62E42D56258D0004ECB7 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E62E52D5625F90004ECB7 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		D44260EA185F81D800E23699 = {
 			isa = PBXGroup;
 			children = (
+				CE8E62E42D56258D0004ECB7 /* ci_scripts */,
 				D442614B185F92BF00E23699 /* README.md */,
 				C2ACAE202BECCE13007179E5 /* On24ScreenShare */,
 				3C25B7FE22F7C7BF00AEBC7C /* OpenTok Live */,
 				D44260F5185F81D800E23699 /* Frameworks */,
 				D44260F4185F81D800E23699 /* Products */,
-				7B951947CB33756CB5C2C290 /* Pods */,
+				BE4EE72081C878A6A4E7C504 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,12 +214,11 @@
 		D44260F5185F81D800E23699 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2CAB6452A70FDE300523471 /* OpenTok.xcframework */,
 				D44260F6185F81D800E23699 /* Foundation.framework */,
 				D44260FA185F81D800E23699 /* UIKit.framework */,
 				3C25B7FC22F7C7BF00AEBC7C /* ReplayKit.framework */,
-				0BBF3FBD024C0811C9AA7BE4 /* Pods_On24ScreenShare.framework */,
-				A18D6DCA1A4BE4C8835D500C /* Pods_On24ScreenShare_OpenTok_Live.framework */,
+				7919AAE415BFFE4FDD093C9E /* Pods_On24ScreenShare.framework */,
+				595332AAAE5F6AE3884D9E06 /* Pods_OpenTok_Live.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,17 +230,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C25B81822F7C7C000AEBC7C /* Build configuration list for PBXNativeTarget "OpenTok Live" */;
 			buildPhases = (
-				DFB3BDC28EA59B3B1B2C1DA6 /* [CP] Check Pods Manifest.lock */,
+				29E7F241CEB3F2BBA18BE949 /* [CP] Check Pods Manifest.lock */,
 				3C25B7F722F7C7BF00AEBC7C /* Sources */,
 				3C25B7F822F7C7BF00AEBC7C /* Frameworks */,
 				3C25B7F922F7C7BF00AEBC7C /* Resources */,
-				5D29778598A2E0CD594695DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "OpenTok Live";
+			packageProductDependencies = (
+				CE67320C2D52588D0081225F /* VonageClientSDKVideo */,
+			);
 			productName = "OpenTok Live";
 			productReference = 3C25B7FB22F7C7BF00AEBC7C /* OpenTok Live.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -241,12 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4426128185F81D800E23699 /* Build configuration list for PBXNativeTarget "On24ScreenShare" */;
 			buildPhases = (
-				D48CF7764A14A22E33841861 /* [CP] Check Pods Manifest.lock */,
+				3AA587FDF572AE2E668548E6 /* [CP] Check Pods Manifest.lock */,
 				D44260EF185F81D800E23699 /* Sources */,
 				D44260F0185F81D800E23699 /* Frameworks */,
 				D44260F1185F81D800E23699 /* Resources */,
 				3C25B81B22F7C7C000AEBC7C /* Embed App Extensions */,
-				048D8734A8E4E273932508AD /* [CP] Copy Pods Resources */,
+				CE8E62E72D5626630004ECB7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -270,6 +280,9 @@
 					3C25B7FA22F7C7BF00AEBC7C = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					D44260F2185F81D800E23699 = {
+						LastSwiftMigration = 1540;
+					};
 				};
 			};
 			buildConfigurationList = D44260EE185F81D800E23699 /* Build configuration list for PBXProject "On24ScreenShare" */;
@@ -282,6 +295,9 @@
 				Base,
 			);
 			mainGroup = D44260EA185F81D800E23699;
+			packageReferences = (
+				CE67320B2D52588D0081225F /* XCRemoteSwiftPackageReference "vonage-client-sdk-video" */,
+			);
 			productRefGroup = D44260F4185F81D800E23699 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,6 +328,7 @@
 				C2ACAE332BECCE13007179E5 /* Splashscreen.storyboard in Resources */,
 				C2ACAE282BECCE13007179E5 /* Raleway-Regular.ttf in Resources */,
 				C2ACAE2F2BECCE13007179E5 /* Launch Screen.storyboard in Resources */,
+				CE8E62E62D5625F90004ECB7 /* ci_post_clone.sh in Resources */,
 				C2ACAE252BECCE13007179E5 /* OpenSans-SemiBold.ttf in Resources */,
 				C2ACAE242BECCE13007179E5 /* OpenSans-Regular.ttf in Resources */,
 				C2ACAE302BECCE13007179E5 /* Main_iPad.storyboard in Resources */,
@@ -322,41 +339,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		048D8734A8E4E273932508AD /* [CP] Copy Pods Resources */ = {
+		29E7F241CEB3F2BBA18BE949 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare-resources.sh",
-				"${PODS_ROOT}/OTXCFramework/OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/selfie_segmentation.tflite",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare/Pods-On24ScreenShare-resources.sh\"\n";
-		};
-		5D29778598A2E0CD594695DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live-resources.sh",
-				"${PODS_ROOT}/OTXCFramework/OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/selfie_segmentation.tflite",
+				"$(DERIVED_FILE_DIR)/Pods-OpenTok Live-checkManifestLockResult.txt",
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-On24ScreenShare-OpenTok Live/Pods-On24ScreenShare-OpenTok Live-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		D48CF7764A14A22E33841861 /* [CP] Check Pods Manifest.lock */ = {
+		3AA587FDF572AE2E668548E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,7 +383,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFB3BDC28EA59B3B1B2C1DA6 /* [CP] Check Pods Manifest.lock */ = {
+		CE8E62E72D5626630004ECB7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,19 +391,14 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-On24ScreenShare-OpenTok Live-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "#!/bin/sh\n# Install CocoaPods using Homebrew.\nbrew install cocoapods\n# Install dependencies you manage with CocoaPods.\npod install\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -436,7 +436,7 @@
 /* Begin XCBuildConfiguration section */
 		3C25B81922F7C7C000AEBC7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C334F38F6FE0619D071C79B /* Pods-On24ScreenShare-OpenTok Live.release.xcconfig */;
+			baseConfigurationReference = BFA401E9C5B00659B744F93B /* Pods-OpenTok Live.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -454,10 +454,7 @@
 				DEVELOPMENT_TEAM = RSJL44J28C;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/OpenTok",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "OpenTok Live/Info.plist";
@@ -483,7 +480,7 @@
 		};
 		3C25B81A22F7C7C000AEBC7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C92AF4BD32733B98F31EDDC /* Pods-On24ScreenShare-OpenTok Live.debug.xcconfig */;
+			baseConfigurationReference = 1F2ED675CC9378AE86828073 /* Pods-OpenTok Live.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -501,10 +498,7 @@
 				DEVELOPMENT_TEAM = RSJL44J28C;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/OpenTok",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -581,11 +575,12 @@
 		};
 		D442612A185F81D800E23699 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC346971B22EB3A78FB23BCF /* Pods-On24ScreenShare.release.xcconfig */;
+			baseConfigurationReference = 17A16B407E41F600179EA9BA /* Pods-On24ScreenShare.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = On24ScreenShare/On24ScreenShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -596,7 +591,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"${SRCROOT}",
-					"$(PROJECT_DIR)/Pods/OpenTok",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
@@ -615,6 +609,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -669,11 +664,12 @@
 		};
 		F8DE15D21D95710C00EFFA79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB8CA82BBFF65F99566287CC /* Pods-On24ScreenShare.debug.xcconfig */;
+			baseConfigurationReference = 675A7E38EA416040E3400A90 /* Pods-On24ScreenShare.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = On24ScreenShare/On24ScreenShare.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -684,7 +680,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"${SRCROOT}",
-					"$(PROJECT_DIR)/Pods/OpenTok",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
@@ -703,6 +698,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -739,6 +735,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE67320B2D52588D0081225F /* XCRemoteSwiftPackageReference "vonage-client-sdk-video" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/opentok/vonage-client-sdk-video.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE67320C2D52588D0081225F /* VonageClientSDKVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE67320B2D52588D0081225F /* XCRemoteSwiftPackageReference "vonage-client-sdk-video" */;
+			productName = VonageClientSDKVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D44260EB185F81D800E23699 /* Project object */;
 }
